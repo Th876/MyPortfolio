@@ -387,6 +387,16 @@ a:hover {
     margin-left: 50px;
 }
 
+.send-me-email {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--hot-pink);
+  font-size: 1.1rem;
+}
+
+.send-me-email:hover {
+  color: var(--eerie-black)
+}
 
 /*About page footer*/
 .about-footer {
