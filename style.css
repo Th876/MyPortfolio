@@ -99,7 +99,7 @@ a:hover {
     text-align: center;
     position: absolute;
     z-index: 2;
-    right: 180px;
+    right: 150px;
 }
 
 /* adjust image border radius */
@@ -150,6 +150,7 @@ footer {
   bottom: 0;
   color: var(--white);
   background-color: var(--black);
+  font-size: 0.85rem;
 }
 
 /*-------------------------------------------------*/
