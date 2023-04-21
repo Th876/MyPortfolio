@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Contact | Tahaylia Higgins</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <meta name="description" content="Web development, Front-end, Back-end, Fullstack Portfolio Contact page">
+  <meta name="author" content="Tahaylia Higgins">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Attach stylesheet-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <!--Attach external fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
+  <!--Tahaylia Higgins-->
+</head>
+<!--Contact page body ID-->
+<body id="contact-body" class="contact-page">
+<!--Navigation menu with logo-->
+  <header class="header-contact">
+    <nav class="contact-nav">
+   <a href="index.html"><img src="images/logo.png" alt="image of developer logo" class="contact-logo"></a>
+   <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="projects.html">Projects</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="https://github.com/Th876" target="_blank">My GitHub</a></li>
+         <li><a href="#">Contact</a></li>
+   </ul>
+ </nav>
+  </header>
+<!--Two column grid to hold form information and email icon-->
+    <div class="contact-grid">
+      <div class="contact-left-column">
+        <img src="images/message.png" class="msg-logo" alt="Message icon">
+      </div>
+      <div class="contact-right-column"><!--Validate form-->
+        <form action="https://formsubmit.co/tayhiggins14@gmail.com" method="POST">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your Full Name" required pattern="^[\p{L}]([-']?[\p{L}]+)*( [\p{L}]([-']?[\p{L}]+)*)+$" title="Please enter a valid name, e.g. John Doe">
+          <label for="email">Email</label>
+          <input type="email"  name="email" id="email" placeholder="Your Email Address" required pattern="(?!test@test\.com$)[a-z0-9._%+-]{3,}@[a-z]{3,}\.[a-z]{2,}(?:\.[a-z]{2,})?" title="Please enter a valid email address, e.g. johndoe@gmail.com">
+          <input type="hidden" name="_next" value="https://th876.github.io/Portfolio/thank-you.html">
+          <label for="subj">Subject</label>
+          <input type="text" id="subj" name="subject" placeholder="Your subject..." required pattern="^[\p{L}]([-']?[\p{L}]+)*( [\p{L}]([-']?[\p{L}]+)*)+$" title="Please enter a subject and leave no space at the end, e.g. Hello">
+          <label for="msg">Message</label>
+          <textarea id="msg" name="msg" placeholder="Write your message..." cols="80" rows="10" minlength="11" maxlength="1000" required title="Please enter message with at least 11 characters, but no more than 1000"></textarea>
+           <!--Create a send button-->
+          <button type="Submit">Send</button> 
+        </form>
+      </div>
+      <!--Page footer-->
+       <footer class="contact-footer"><p class="copyright">Copyright ©2021, Designed by Tahaylia Higgins. All Rights Reserved<br /><span class="msg-icon-attribute">Message Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span></p></footer>
+      </div>
+</body>
+</html>
