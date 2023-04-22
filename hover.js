@@ -14,7 +14,6 @@ hoverLinkedIn.style.opacity = "0";
 hoverLinkedIn.style.cursor = "pointer";
 iconLinkedIn.appendChild(hoverLinkedIn);
 
-
 iconLinkedIn.addEventListener("mouseover", (e) => {
     hoverLinkedIn.style.opacity = "1";
 })
