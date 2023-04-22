@@ -14,10 +14,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
         <!--Tahaylia Higgins-->
       </head>
-      <!--About page body ID-->
-      <body id="about-body" class="about-page">
+      <body class="about-body">      
        <!--Navigation menu with logo-->
-        <header class="header-about">
+        <header id="about-header">
           <nav>
          <a href="index.html"><img src="images/logo.png" alt="image of developer logo" class="about-logo"></a>
          <ul>
@@ -25,15 +24,19 @@
                <li><a href="projects.html">Projects</a></li>
                <li><a href="#">About</a></li>
                <li><a href="https://github.com/Th876" target="_blank">My GitHub</a></li>
-               <li><a href="contact.html">Contact</a></li>
          </ul>
        </nav>
         </header>
-        <h2 class="header header-text">Who am I?
-        </h2>
+        <!--Page heading-->
+
          <!--Three column grid style-->
+         <div class="header-text">Who 
+          am I?</div>
         <div class="about-grid">
-       <div class="left-column"><img 
+          
+       <div class="left-column">
+       
+        <img 
         class="about-me-pic" src= "images/about-me-pic.jpg" alt="photo of portfolio developer Tahaylia 
         Higgins">
         </div>
@@ -47,10 +50,33 @@
        <p>One step backward? More like forward! This only made me want to go the 'extra mile' to break into this field. I, therefore, took a 3-month hiatus from ASU to self-study with the use of online resources, books, and some notes from a web development class I took one semester and it has been a delightful challenge. <br/><br/>Since then, ASU started a new degree program for Full-Stack Web Development; and although starting this program has further introduced me to the world of web development, I know I needed to bridge the 'gap' between school learning materials and real world job training skills which is why I am currently enrolled in Per Scholas Software Engineering Program to obtain a more in-depth knowledge of website and web application developement. My constant 'thirst' for knowledge makes me sincerely ecstatic to contribute greatly to the field of technology.
        <br><br>
        If you'd like to know more about me or my projects, please send me an <a href="mailto:thiggin7@asu.edu" class="send-me-email">email</a>. I would love to hear from you.</p>
+
+       <div class="contact-icon">
+        <div class="icon-linkedin">
+          <!-- <div class="tooltip">LinkedIn</div> -->
+          <a href="https://www.linkedin.com/in/
+          tahayliahiggins/" target="_blank"><img 
+          src="./images/icon-linkedin.png" class=" 
+          linkedin"></a>
+        </div>
+       
+        <div class="icon-email">
+          <!-- <div class="tooltip">Email</div> -->
+          <a href="mailto:tayhiggins14@gmail.com" 
+          target="_blank"><img src="./images/icon-email.png" class="email"></a>
+        </div>
+       
+        <div class="icon-github">
+          <!-- <div class="tooltip">GitHub</div> -->
+          <a href="https://github.com/Th876" target="_blank"><img src="./images/icon-github.png" class="github"></a>
+        </div>
+       </div>
+
        </div>
        <!--Page footer-->
         <div class="about-footer about-footer-style"><p class="copyright">Copyright ©2021, Designed by Tahaylia Higgins. All Rights Reserved</p>
        </div>
      </div>
+     <script src="hover.js"></script>
      </body>
      </html>
