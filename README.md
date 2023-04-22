@@ -1,6 +1,6 @@
 # My Portfolio
 <p align="center">
-  <img src="images/portfolio-demo1-1.gif" width="600px" height="328px">
+  <img src="images/portfolio-demo.gif" width="600px" height="328px">
 </p>
 
 <h2>Overview</h2>
