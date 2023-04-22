@@ -23,4 +23,5 @@
   <li>Font from <a href="https://fonts.google.com/">Google Fonts</a></li>
   <li>Name logo and favicon created using <a href="https://www.adobe.com/products/photoshop.html?sdid=KKQIN&mv=search&kw=photoshop&ef_id=Cj0KCQjw4v2EBhCtARIsACan3nzWa02yHOxxhoA2qyth0Ccx23VW6QLSgtmysrlXsdK-F58df6NXpr0aAmSXEALw_wcB:G:s&s_kwcid=AL!3085!3!442365419729!e!!g!!adobe%20photoshop%20home&gclid=Cj0KCQjw4v2EBhCtARIsACan3nzWa02yHOxxhoA2qyth0Ccx23VW6QLSgtmysrlXsdK-F58df6NXpr0aAmSXEALw_wcB">Adobe Photoshop</a></li> 
   <li>Icons from <a href="https://www.flaticon.com/">Flaticon</a></li>
+  <li>Wallpaper from <a href="https://wallpaperaccess.com/">Wallpaper Access</a></li>
 </ul>
