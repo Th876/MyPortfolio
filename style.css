@@ -33,11 +33,13 @@ html, .home-body {
 
 /*Home navigation menu*/
 header {
-  height: 4rem;
+  background-color: var(--eerie-black);
+  height: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 100%;
   margin-top: -20px;
+  position: relative;
 }
 
  
@@ -66,12 +68,11 @@ a:hover {
     color:var(--lavender);
  }
 
-
 /*Homepage button*/
 .project-button {
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: var(--light-pink);
-    padding: 0.62rem 0.93rem 0.62rem 0.93rem;
+    padding: 15px 20px 15px 20px;
     font-size: 1.2rem;
     cursor: pointer;
     text-decoration: none;
@@ -87,7 +88,7 @@ a:hover {
 
 /*Two column grid*/
 .home-grid {
-    background-color: var(--eerie-black);
+    /* background-color: var(--eerie-black); */
     color: var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -151,6 +152,12 @@ a:hover {
 .intro {
     opacity: 0.8;
     padding-bottom: 1.25rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
 }
 
 /*Homepage footer*/
