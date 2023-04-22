@@ -91,7 +91,7 @@ a:hover {
     background-image: url(./images/42337.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
+    background-position: right top;
     color: var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,7 +140,7 @@ a:hover {
 .home-left-column {
     font-size: 1.22rem;
     line-height: 1.4;
-    margin-top: 5.625rem;
+    margin-top: 110px;
     margin-left: 80px;
     padding: 1.875rem;
     text-align: center;
