@@ -393,6 +393,7 @@ a:hover {
   
 .header-text {
     text-align: left;
+    margin-left: 60px;
     padding: 3.12rem;
     font-size: 3rem;
     font-weight: 700;
@@ -405,9 +406,9 @@ a:hover {
 }
 
 .about-me-pic {
-    width: 84%;
+    width: 70%;
     box-shadow: var(--quartz) 4px 4px 6px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .send-me-email {
