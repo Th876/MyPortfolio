@@ -7,6 +7,7 @@
 --eerie-black: #111625;
 --constellation: #2c3653;
 --white: #ffffff;
+--lightpurple: #f2ebfb;
 --light-pink: #FFB6C1;
 --hot-pink: #FF55A2;
 --quartz: #4a4a4a;
@@ -226,7 +227,7 @@ a:hover {
 /*Project cards*/
 #projects {
   color: var(--quartz);
-  background-color: var(--lavender);
+  background-color: var(--lightpurple);
   padding-top: 5.25rem;
   display: grid;
   width: 100%;
@@ -293,7 +294,7 @@ a:hover {
 }
 
 .web-button-style {
-  background-color: var(--light-pink);
+  background-color: var(--eerie-black);
   border-radius: 20px;
   text-decoration: none;
   font-size: 1.125rem;
@@ -330,7 +331,7 @@ a:hover {
  
 /*Start of about page*/
 .about-body{
-  background-color: var(--white); 
+  background-color: var(--lightpurple);
   
 }
 
@@ -443,6 +444,7 @@ a:hover {
 .github {
   width: 40px;
 }
+
 /*About page footer*/
 .about-footer {
     background: var(--black);
@@ -458,27 +460,6 @@ a:hover {
     text-align: center;
     font-size: 0.85rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -582,20 +563,6 @@ a:hover {
 .home-right-column img {
     border-radius: 5px;
 }
-
-/*Box positioned underneath image and styled*/
-/* .box {  */
-    /* background-color: #FC03FD; */
-    /* opacity: 0.4; */
-    /* width: 23%; */
-    /* height: 280px; */
-    /* bottom: 340px; */
-    /* left: 1900px; */
-    /* position: absolute; */
-    /* top: 160px; */
-    /* z-index: 1; */
-    /* border-radius: 8px; */
-/* } */
 
 .home-left-column {
     font-size: 1.22rem;
