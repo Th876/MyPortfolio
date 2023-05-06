@@ -7,7 +7,7 @@
 <p>This portfolio website was designed and developed to showcase my current projects. It was thoughtfully developed with enthusiasm.</p> 
 
 <h2>Live Link here:</h2> 
-<a href="https://th876.github.io/MyPortfolio">My Portfolio</a>
+<a href="https://th876.github.io/SWEPortfolio">My Portfolio</a>
 
 <h2>Features:</h2> 
 <ul>
