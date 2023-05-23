@@ -1,14 +1,23 @@
 {
+  "homepage": "https://th876.github.io/SWEPortfolio",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "SWE portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install -D tailwindcss",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Tahaylia Higgins",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23"
   }
 }
