@@ -1,6 +1,6 @@
 # My Portfolio
 <p align="center">
-  <img src="/dist/images/portfolio-project.png" width="600px" height="328px">
+  <img src="./images/portfolio-project.png" width="600px" height="328px">
 </p>
 
 <h2>Overview</h2>
